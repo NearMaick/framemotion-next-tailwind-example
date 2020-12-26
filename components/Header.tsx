@@ -21,7 +21,7 @@ const Header: React.FC = () => {
           <a className="tracking-wide transition duration-200 ease-linear text-black hover:text-gray-300">
             Framer Motion
           </a>
-        </Link>      
+        </Link>
       </nav>
     </header>
   )

@@ -6,7 +6,7 @@ const NextPage: React.FC = () => {
     <div className="flex flex-col items-center">
       <motion.img src="/img/nextjs.svg" layoutId="nextjs-logo" />
 
-<motion.div
+      <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ delay: 1, duration: 1 }}
