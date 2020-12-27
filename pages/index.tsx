@@ -9,7 +9,7 @@ interface CardProps {
 const Card: React.FC<CardProps> = ({ href, imgSrc, layoutId }) => {
   return (
     <Link href={href}>
-      <div className="relative h-20 md:h-40 bg-gray-200 rounded-xl cursor-pointer hover:bg-gray-50 transition">
+      <div className="relative h-20 md:h-40 bg-yellow-300 rounded-xl cursor-pointer hover:bg-yellow-50 transition">
         <motion.img
           src={imgSrc}
           className="w-full h-full"
@@ -23,7 +23,7 @@ const Card: React.FC<CardProps> = ({ href, imgSrc, layoutId }) => {
 export default function Home() {
   return (
     <div>
-      <h1 className="text-4xl sm:text-6xl lg:text-7xl mt-10 md:mt-24 leading-none font-extrabold tracking-tight text-gray-900">
+      <h1 className="text-4xl sm:text-6xl lg:text-7xl mt-10 md:mt-24 leading-none font-extrabold tracking-tight text-gray-200">
         Construa sites modernos com agilidade sem precisar sair do HTML.
       </h1>
       <div className="mt-10 md:mt-24 grid w-full grid-cols-1 grid-rows-3 gap-4 md:grid-cols-3 md:grid-rows-1">
